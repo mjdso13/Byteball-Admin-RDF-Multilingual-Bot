@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:ID="welcome">
+	<rdfs:label xml:lang="en">Welcome to the Byteball RDF multilingual bot with an administrative interface, human!
+
+Why the bot cross the road?
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Bienvenu sur le bot Byteball multilingue RDF avec une interface administrative, humain !
+
+Pourquoi le bot traverse la route ?
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="menu">
+	<rdfs:label xml:lang="en">[» More explainations about me 🤖 «](command:explain)
+[» Go to the homepage 🏠 «](command:main)
+[» Change language 🗣 «](command:languages)
+</rdfs:label>
+	<rdfs:label xml:lang="fr">[» Plus d'explication à mon sujet 🤖 «](command:explain)
+[» Allez à l'accueil 🏠 «](command:main)
+[» Changez la langue 🗣 «](command:languages)
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description  rdf:ID="main">
+	<rdfs:label xml:lang="en">Why the bot cross the road? To help, human!
+
+It's my nature.
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Pourquoi le bot traverse la route ? Pour aider, humain!
+
+C'est ma raison d'être.
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="explain">
+	<rdfs:label xml:lang="en">I'm a Byteball multilingual bot, human.
+
+A bot is a smart agent or an autonomous program. A smart agent is able to interact with both humans and smart agents. A chatbot like Byteball bots are conversational agents. Byteball bots have limited capacities but offer useful services to Byteball users.
+
+The Byteball multilingual bot uses RDF standard to interact with humans.
+
+RDF stands for « Resource Description Framework ». It's a data model designed to describe web ressources with metadata. It allows to process automaticaly data with autonomous agents and facilitate human-machine communications because readble by both. It's a Semantic Web standard supported by the W3C and by Tim Berner-Lee, the World Wide Web father.
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Je suis un bot multilingue Byteball, humain.
+
+Un bot est un agent intelligent ou un programme autonome. Un agent intelligent est capable d'interagir avec des humains et d'autres agents intelligents. Un chatbot comme les bots Byteball sont des agents conversationels. Les bots Byteball ont des capacités limitées mais offrent des services utiles aux utilisateurs Byteball.
+
+Le bot multilingue Byteball utilise le standard RDF pour interagir avec les humains.
+
+RDF signifie «Resource Description Framework». Il s'agit d'un modèle de données conçu pour décrire les ressources Web avec des métadonnées. Il permet de traiter automatiquement les données avec des agents autonomes et facilite les communications homme-machine car compréhensible par les deux. Il s'agit d'un standard du Web Sémantique pris en charge par le W3C et encouragé par Tim Berner-Lee, le père du Web.
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="languages">
+	<rdfs:label xml:lang="en">Choose your interface language:
+
+[» 🇫🇷 Français «](command:setLanguage#fr)
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Choisissez la langue de l'interface :
+
+[» 🇬🇧 English «](command:setLanguage#en)
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="languageChanged">
+	<rdfs:label xml:lang="en">The interface language have been changed with success, human!
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">La langue d'interface a été changé avec succès, humain !
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="unknownLanguage">
+	<rdfs:label xml:lang="en">I don't know this language, human!
+
+Is '%s' a human language ?
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Je ne connais pas cette langue, humain !
+
+'%s' est-il un langage humain?
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="unknownCmd">
+	<rdfs:label xml:lang="en">I don't understand '%s' as a valid command.
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Je ne comprends pas '%s' comme une commande valide.
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="openAdminMenu">
+	<rdfs:label xml:lang="en">[» Open administration menu 🔋 «](command:admin#menu)
+</rdfs:label>
+	<rdfs:label xml:lang="fr">[» Accès à l'administration 🔋 «](command:admin#menu)
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="adminMenu">
+	<rdfs:label xml:lang="en">
+Features »
+[» Reload the RDF file 🔄 «](command:admin#reloadRdfConfirmation)
+[» Send message to all 📨 «](command:admin#messageToAllConfirmation)
+Statistics »
+[» Get the memory usage 🔋 «](command:admin#memoryInfo)
+[» How many users 🧮 «](command:admin#totalUsers)
+[» Users by language 🏁 «](command:admin#totalUsersByLanguage)
+
+[» Go to the homepage 🏠 «](command:main)
+</rdfs:label>
+	<rdfs:label xml:lang="fr">
+Fonctionnalités »
+[» Recharger le fichier RDF 🔄 «](command:admin#reloadRdfConfirmation)
+[» Envoyer le message à tous 📨 «](command:admin#messageToAllConfirmation)
+Statistiques »
+[» Utilisation de la mémoire 🔋 «](command:admin#memoryInfo)
+[» Nombre d'utilisateurs 🧮 «](command:admin#totalUsers)
+[» Nb d'utilisateurs par langue 🏁 «](command:admin#totalUsersByLanguage)
+
+[» Allez à l'accueil 🏠 «](command:main)
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="user">
+	<rdfs:label xml:lang="en">user</rdfs:label>
+	<rdfs:label xml:lang="fr">utilisateur</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="users">
+	<rdfs:label xml:lang="en">users</rdfs:label>
+	<rdfs:label xml:lang="fr">utilisateurs</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="memoryUsage">
+	<rdfs:label xml:lang="en">Memory load:
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Charge mémoire :
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="mbyte">
+	<rdfs:label xml:lang="en">MByte</rdfs:label>
+	<rdfs:label xml:lang="fr">MOctet</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="mbytes">
+	<rdfs:label xml:lang="en">MBytes</rdfs:label>
+	<rdfs:label xml:lang="fr">Moctets</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="dbContains">
+	<rdfs:label xml:lang="en">The database contains:
+
+</rdfs:label>
+	<rdfs:label xml:lang="fr">La base de données contient :
+
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="format_d_colon_s">
+	<rdfs:label xml:lang="en">%d : %s
+</rdfs:label>
+	<rdfs:label xml:lang="fr">%d : %s
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="format_s_colon_d_s">
+	<rdfs:label xml:lang="en">%s : %d %s
+</rdfs:label>
+	<rdfs:label xml:lang="fr">%s : %d %s
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="reloadRdfConfirmation">
+	<rdfs:label xml:lang="en">Are you sure you want to reload the RDF file?
+
+[» Cancel operation 🛑 «](command:admin#menu)
+
+[» Reload RDF file 🔄 «](command:admin#reloadRdf)
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Êtes-vous sûr de vouloir le fichier RDF?
+
+[» Annuler l'opération 🛑 «](command:admin#menu)
+
+[» Recharger fichier RDF 🔄 «](command:admin#reloadRdf)
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="reloadRdf">
+	<rdfs:label xml:lang="en">The RDF file has been reloaded.
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Le fichier RDF a été rechargé.
+</rdfs:label>
+</rdf:Description>
+
+
+<rdf:Description rdf:ID="messageToAllConfirmation">
+	<rdfs:label xml:lang="en">Are you sure you want to send a message to all users?
+
+[» Cancel operation 🛑 «](command:admin#menu)
+
+[» Send message 📤 «](command:admin#sendMessageToAll)
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Êtes-vous sûr de vouloir envoyer un message à tous les utilisateurs?
+
+[» Annuler l'opération 🛑 «](command:admin#menu)
+
+[» Envoyer message 📤 «](command:admin#sendMessageToAll)
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="messageToAllSent">
+	<rdfs:label xml:lang="en">The message has been sent.
+</rdfs:label>
+	<rdfs:label xml:lang="fr">Le message a été envoyé.
+</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:ID="messageToAll">
+	<rdfs:label xml:lang="en">» Message to all «
+I will go into maintenance mode in 15 minutes. I will not answer your requests for an indefinite period of time.
+
+Finish what you do quickly.
+
+I will inform you as soon as I am operational again.
+
+Thank you for the understanding and sorry for this inconvenience.
+</rdfs:label>
+	<rdfs:label xml:lang="fr">» Message à tous «
+Je vais passer en mode maintenance dans 15 minutes. Je ne répondrai pas à vos demandes pour une durée indéterminée.
+
+Terminez ce que vous faites rapidement.
+
+Je vous informerai dès que je serai de nouveau opérationnel.
+
+Merci pour votre compréhension et désolé pour ce désagrément.
+</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF> 
