@@ -1,8 +1,8 @@
 {
-	"name": "RDF-Admin-Multitingual-Bot",
+	"name": "Admin-RDF-Multitingual-Bot",
 	"version": "1.0.0",
 	"description": "An example of Byteball multilingual bot with RDF. It includes a set of administrative commands like reload the RDF file",
-	"main": "adminbot.js",
+	"main": "adminrdfbot.js",
 	"license": "MIT",
 	"dependencies": {
 		"byteballcore": "git+https://github.com/byteball/byteballcore.git",
