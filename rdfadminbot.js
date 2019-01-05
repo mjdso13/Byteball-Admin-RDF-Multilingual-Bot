@@ -24,7 +24,7 @@ eventBus.on (
 			i18nRDF.getText('welcome', from_address) + // welcome message 
 			i18nRDF.getText('menu', from_address) + // user menu
 			((admin.isAdministrator(from_address)) // if user is admin 
-				? i18nRDF.getText('adminMenu', from_address) : '') // // add admin menu 
+				? i18nRDF.getText('openAdminMenu', from_address) : '') // add admin menu 
 		);
 	}
 );
