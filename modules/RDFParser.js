@@ -16,7 +16,7 @@ var RDFParser = {
 		var hostUrl = 'https://raw.githubusercontent.com/n-ric-v/RDF-Files/master/';
 
 		// RDF folder related to the project
-		var project = 'Byteball-RDF-Multilingual-Bot/';
+		var project = 'Byteball-Admin-RDF-Multilingual-Bot/';
 
 		// RDF file
 		var file = 'botmessages';
