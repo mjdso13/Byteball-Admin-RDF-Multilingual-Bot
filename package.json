@@ -1,5 +1,5 @@
 {
-	"name": "RDF-Admin-Bot",
+	"name": "RDF-Admin-Multitingual-Bot",
 	"version": "1.0.0",
 	"description": "An example of Byteball multilingual bot with RDF. It includes a set of administrative commands like reload the RDF file",
 	"main": "adminbot.js",
