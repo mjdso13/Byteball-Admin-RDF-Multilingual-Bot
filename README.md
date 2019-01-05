@@ -75,7 +75,7 @@ Obviously, if you forget to set these variables, you can yet modify the "paired_
 Type this command line when running the bot for the first time :
 
 ```bash
-ADMIN_DEVICE_ADDRESS=YOURADMINDEVICEADDRESS ADMIN_DEVICE_LANGUAGE=en nodejs rdfadminbot.js
+ADMIN_DEVICE_ADDRESS=YOURADMINDEVICEADDRESS ADMIN_DEVICE_LANGUAGE=en nodejs adminrdfmultilingualbot.js
 ```
 - ADMIN_DEVICE_ADDRESS is your device address. To find this address, open your Byteball wallet and go to the menu > settings > device address
 - ADMIN_DEVICE_LANGUAGE is your initial language interface language. You can change it any time from the menu. 
